@@ -1,0 +1,67 @@
+.container {
+	width:400px;
+	height:250px;
+	background:#e5e5e5;
+	position:absolute;
+	top:20px;
+	left:0;
+}
+header {
+	height:30px;
+}
+header .left:hover {
+	cursor:move;
+}
+.right {
+	width:120px;
+	height:100%;
+	float:right;
+}
+.right a {
+	display:inline-block;
+	margin-top:7px;
+	
+}
+.min_size {
+	background:url(../img/sprites.png);
+	background-position:-6px -4px;
+	width:26px;
+	height:16px;
+}
+.max_size {
+	background:url(../img/sprites.png);
+	background-position:-35px -3px;
+	width:25px;
+	height:16px;
+}
+.resize {
+	background:url(../img/sprites.png);
+	background-position:-61px -3px;
+	width:24px;
+	height:16px;
+}
+.close {
+	background:url(../img/sprites.png);
+	background-position:-89px -3px;
+	width:43px;
+	height:16px;
+}
+.left {
+	width:-webkit-calc(100% - 120px);
+	width:-moz-calc(100% - 120px);
+	width:calc(100% - 120px);
+	/*这里要空格，待会翻译那篇文章*/
+ height:100%;
+	float:left;
+}
+article {
+	background:#282841;
+	width:-webkit-calc(100% - 20px);
+	width:-moz-calc(100% - 20px);
+	width:calc(100% - 20px);
+	
+	height:-webkit-calc(100% - 40px);
+	height:-moz-calc(100% - 40px);
+	height:calc(100% - 40px);
+	margin:0 auto;
+}
