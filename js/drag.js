@@ -27,7 +27,6 @@
 		
 		
 		_window.operation={
-			
 			//最大化
 			max_size:function(obj){
 				EventUtil.addHandler(obj.querySelector(".change"),"click",function(){
