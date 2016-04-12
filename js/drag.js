@@ -26,7 +26,7 @@
 		
 		
 		
-		_window.operation()={
+		_window.operation={
 			
 			//最大化
 			max_size:function(obj){
